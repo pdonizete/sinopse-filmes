@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sinopse-filmes"
+version = "0.1.2"
+description = "CLI para buscar sinopses de filmes via OMDb"
+readme = "README.md"
+requires-python = ">=3.9"
+authors = [
+  { name = "pdonizete", email = "paulo@paulosoft.net" }
+]
+dependencies = [
+  "requests>=2.31.0",
+  "python-dotenv>=1.0.0"
+]
+
+[project.scripts]
+filmes = "filmes:main"
+
+[tool.setuptools]
+py-modules = ["filmes"]
