@@ -1,0 +1,30 @@
+name: Bug report
+description: Reporte um problema
+labels: [bug]
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Qual era o comportamento esperado?
+      placeholder: Descreva o que você queria que acontecesse.
+    validations:
+      required: true
+
+  - type: textarea
+    id: problema
+    attributes:
+      label: Problema encontrado
+      description: O que aconteceu?
+      placeholder: Descreva o bug de forma objetiva.
+    validations:
+      required: true
+
+  - type: textarea
+    id: como_reproduzir
+    attributes:
+      label: Como reproduzir
+      description: Passos para reproduzir o problema.
+      placeholder: 1. ... 2. ... 3. ...
+    validations:
+      required: true

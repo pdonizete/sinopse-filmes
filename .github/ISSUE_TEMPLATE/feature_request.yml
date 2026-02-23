@@ -1,0 +1,21 @@
+name: Feature request
+description: Sugira uma melhoria
+labels: [enhancement]
+body:
+  - type: textarea
+    id: objetivo
+    attributes:
+      label: Objetivo
+      description: Qual problema ou necessidade esta feature resolve?
+      placeholder: Descreva o resultado esperado.
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposta
+    attributes:
+      label: Proposta
+      description: Descreva a solução sugerida.
+      placeholder: Explique a funcionalidade de forma objetiva.
+    validations:
+      required: true
