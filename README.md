@@ -1,5 +1,7 @@
 # 🎬 Filmes - Cliente para Terminal
 
+[![CI](https://github.com/pdonizete/sinopse-filmes/actions/workflows/ci.yml/badge.svg)](https://github.com/pdonizete/sinopse-filmes/actions/workflows/ci.yml)
+
 Um cliente Python simples para buscar sinopses de filmes diretamente pelo terminal, usando a API OMDb.
 
 ---
