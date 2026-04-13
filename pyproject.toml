@@ -12,7 +12,7 @@ authors = [
   { name = "pdonizete", email = "paulo@paulosoft.net" }
 ]
 dependencies = [
-  "requests>=2.31.0",
+  "requests>=2.32.5",
   "python-dotenv>=1.0.0"
 ]
 
